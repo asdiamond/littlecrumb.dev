@@ -1,0 +1,19 @@
+{
+  "name": "littlecrumb.dev",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "littlecrumb dev",
+    "build": "littlecrumb build --static"
+  },
+  "dependencies": {
+    "littlecrumb": "file:../littlecrumb",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
+  }
+}
