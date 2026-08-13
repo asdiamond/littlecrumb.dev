@@ -8,7 +8,7 @@
     "deploy": "littlecrumb build --static && wrangler deploy"
   },
   "dependencies": {
-    "littlecrumb": "^0.0.4",
+    "littlecrumb": "^0.0.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
