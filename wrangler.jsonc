@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "littlecrumb-dev",
+  "compatibility_date": "2026-08-01",
+  "routes": [
+    { "pattern": "littlecrumb.dev", "custom_domain": true }
+  ],
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}

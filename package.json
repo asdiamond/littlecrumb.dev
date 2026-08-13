@@ -4,16 +4,18 @@
   "type": "module",
   "scripts": {
     "dev": "littlecrumb dev",
-    "build": "littlecrumb build --static"
+    "build": "littlecrumb build --static",
+    "deploy": "littlecrumb build --static && wrangler deploy"
   },
   "dependencies": {
-    "littlecrumb": "file:../littlecrumb",
+    "littlecrumb": "^0.0.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@types/bun": "latest",
     "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0"
+    "@types/react-dom": "^19.0.0",
+    "wrangler": "^4.122.0"
   }
 }
